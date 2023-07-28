@@ -1,0 +1,71 @@
+{
+  "name": "zhuandai_frontend_mini",
+  "version": "1.0.0",
+  "private": true,
+  "description": "转贷系统小程序",
+  "templateInfo": {
+    "name": "vue3-pinia",
+    "typescript": false,
+    "css": "sass"
+  },
+  "scripts": {
+    "b:we": "taro build --type weapp",
+    "b:h5": "taro build --type h5",
+    "b:we:staging": "taro build --type weapp --mode staging",
+    "b:h5:staging": "taro build --type h5 --mode staging",
+    "d:we": "npm run b:we -- --watch --mode dev",
+    "d:h5": "npm run b:h5 -- --watch --mode dev"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@nutui/nutui-taro": "^4.1.2",
+    "@tarojs/components": "3.6.8",
+    "@tarojs/helper": "3.6.8",
+    "@tarojs/plugin-framework-vue3": "3.6.8",
+    "@tarojs/plugin-platform-alipay": "3.6.8",
+    "@tarojs/plugin-platform-h5": "3.6.8",
+    "@tarojs/plugin-platform-jd": "3.6.8",
+    "@tarojs/plugin-platform-qq": "3.6.8",
+    "@tarojs/plugin-platform-swan": "3.6.8",
+    "@tarojs/plugin-platform-tt": "3.6.8",
+    "@tarojs/plugin-platform-weapp": "3.6.8",
+    "@tarojs/runtime": "3.6.8",
+    "@tarojs/shared": "3.6.8",
+    "@tarojs/taro": "3.6.8",
+    "crypto-js": "^4.1.1",
+    "pinia": "^2.0.10",
+    "vue": "^3.2.24"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@tarojs/cli": "3.6.8",
+    "@tarojs/plugin-html": "^3.6.10",
+    "@tarojs/taro-loader": "3.6.8",
+    "@tarojs/webpack5-runner": "3.6.8",
+    "@types/node": "^18.15.11",
+    "@types/webpack-env": "^1.13.6",
+    "@vue/babel-plugin-jsx": "^1.0.6",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-preset-taro": "3.6.8",
+    "css-loader": "3.4.2",
+    "eslint": "^8.12.0",
+    "eslint-config-taro": "3.6.8",
+    "eslint-plugin-vue": "^8.0.0",
+    "postcss": "^8.4.18",
+    "style-loader": "1.3.0",
+    "stylelint": "9.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.1.0",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.78.0"
+  }
+}

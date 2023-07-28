@@ -1,0 +1,1 @@
+export const login = (data) => request('/system/auth/login', data)
